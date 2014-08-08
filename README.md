@@ -29,6 +29,6 @@ View:
 
 Next time we ask for:
 
-  new ImmediateStorageService('myStorage');
+    new ImmediateStorageService('myStorage');
   
 it will be full.
