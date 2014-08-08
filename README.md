@@ -3,6 +3,8 @@ ImmediateStorage
 
 An angular module for accessing the localStorage as standard object.
 
+* Using Object.observe() *
+
 How to use?
 ================
 
