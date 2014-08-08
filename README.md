@@ -8,8 +8,8 @@ How to use?
 
 Controller:
 
-    angular.module('myApp', ['ImmediateStorage']).controller('myController',
-        function(ImmediateStorageService, $scope) {
+    angular.module('myApp', ['ImmediateStorage'])
+        .controller('myController', function(ImmediateStorageService, $scope) {
             var myStorage = new ImmediateStorageService('myStorage');
     
             myStorage.someKey = 'some value';
@@ -20,11 +20,11 @@ Controller:
    
 View:
 
-    <body ng-app="myApp" ng-controller="myController">
-      <div>
-          <pre>{{ storage | json }}</pre>
-      </div>
-    </body>
+
+    <div ng-app="myApp" ng-controller="myController">
+      <pre>{{ storage | json }}</pre>
+    </div>
+
 
 
 Next time we ask for:
