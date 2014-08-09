@@ -26,6 +26,7 @@ Controller:
        });
 
 View:
+
     <div ng-app="myApp" ng-controller="myController">
       <pre>{{ storage | json }}</pre>
     </div>
