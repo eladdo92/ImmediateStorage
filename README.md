@@ -20,7 +20,7 @@ Controller:
             myStorage.someKey = 'some value';               // saved to localStorage!
             myStorage.someOtherKey = 'some other value';    // saved to localStorage!
             myStorage.someKey = 'some value2';              // changed in localStorage!
-            delete myStorage;                               // deleted from localStorage!
+            delete myStorage.someKey;                       // deleted from localStorage!
     
             $scope.storage = myStorage;
        });
