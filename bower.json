@@ -1,0 +1,27 @@
+{
+  "name": "ImmediateStorage",
+  "version": "1.0.0",
+  "homepage": "https://github.com/eladdo92/ImmediateStorage",
+  "authors": [
+    "Elad Douenias <eladdo92@gmail.com>"
+  ],
+  "description": "An angular module for accessing the localStorage as standard object.",
+  "main": "js/ImmediateStorage.js",
+  "keywords": [
+    "angular",
+    "localStorage",
+    "local",
+    "storage",
+    "object.observe",
+    "observe"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".idea"
+  ]
+}
