@@ -24,7 +24,7 @@ angular.module('ImmediateStorage', [])
 
         function StorageKeysContainer(name) {
             this.allKeysKey = allKeysKeyPrefix + name;
-            this.keyPrefix = name + '_';
+            this.keyPrefix = name + '.';
             this.storageKeys = { };
             this._allKeysStorage = new StorageKey(this.allKeysKey);
         }
