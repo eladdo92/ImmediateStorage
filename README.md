@@ -36,3 +36,9 @@ Next time we ask for:
     new ImmediateStorageService('myStorage');
 
 it will be full!
+
+
+How to install?
+================
+    
+    $ bower install https://github.com/eladdo92/ImmediateStorage.git
